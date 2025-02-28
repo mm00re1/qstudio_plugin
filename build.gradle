@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // For newer Gradle versions
+    implementation 'org.json:json:20210307'
+
+    // If using an older Gradle version, replace with:
+    // compile 'org.json:json:20210307'
+}
+
